@@ -2,7 +2,7 @@
 
 /**
  * main - Program entry
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -15,11 +15,11 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putchar((a / 100) + 48);
-				putchar((a % 100) + 48);
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
 				putchar(' ');
-				putchar((b / 100) + 48);
-				putchar((b % 100) + 48);
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
 				if (a != 98 || b != 99)
 				{
 					putchar(',');
