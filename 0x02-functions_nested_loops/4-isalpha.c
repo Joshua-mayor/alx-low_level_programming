@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -isalpha - Checks for the alphabetic chararcter character
+ * _isalpha - Checks for the alphabetic chararcter character
  *  @c: The character to br checked
  *  Return: 1 for alphabetic character or 0 for anything else
  */
