@@ -4,7 +4,7 @@
  * followed by a new line
  */
 
-void more_more_numbers(void)
+void more_numbers(void)
 {
 	int k, m;
 
