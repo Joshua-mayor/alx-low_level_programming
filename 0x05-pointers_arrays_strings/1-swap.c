@@ -3,11 +3,13 @@
  * swap_int - function swaps the value of two integers
  * @a: integer to swap
  * @b: integer to swap
+ * Return: 0
  */
-void swap_int(int a, intb)
+void swap_int(int *a, int *b)
 {
-	int a;
+	int swap;
 
-	a = *a;
-	*a = *b;
-	*b = 
+	change = *b;
+	*b = *a;
+	*a = change;
+}
